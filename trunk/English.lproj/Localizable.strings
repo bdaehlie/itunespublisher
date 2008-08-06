@@ -1,0 +1,68 @@
+/* Localized versions of UI keys */
+
+/* generic */
+"OKButtonText" = "OK";
+"QuitButtonText" = "Quit";
+"Playlist" = "Playlist";
+"FindButtonText" = "Find";
+"Unlimited" = "Unlimited";
+"Page" = "Page";
+"Normal" = "Normal";
+"Larger" = "Larger";
+"Smaller" = "Smaller";
+"songs" = "songs";
+"Total Time" = "Total Time";
+"Total File Size" = "Total File Size";
+
+/* time units */
+"seconds" = "seconds";
+"minutes" = "minutes";
+"hours" = "hours";
+"days" = "days";
+
+/* file size units*/
+"K" = "K";
+"MB" = "MB";
+"GB" = "GB";
+
+/* Song Info Fields */
+"Artist" = "Artist";
+"Album" = "Album";
+"Name" = "Name";
+"Genre" = "Genre";
+"Location" = "Location";
+"SampleRate" = "Sample Rate";
+"Time" = "Time";
+"BitRate" = "Bit Rate";
+"Rating" = "Rating";
+"PlayCount" = "Play Count";
+"TrackNumber" = "Track Number";
+"Composer" = "Composer";
+"Comments" = "Comments";
+"Year" = "Year";
+"Kind" = "Kind";
+"BPM" = "BPM";
+"Disc Number" = "Disc Number";
+"Disc Count" = "Disc Count";
+"Size" = "Size";
+
+/* Export Types */
+"HTML" = "HTML";
+"Delimited Text" = "Delimited Text";
+"QTSS" = "QTSS";
+"M3U" = "M3U";
+
+/* Errors, Warnings, and Alerts */
+"TooManyFilesErrorTitle" = "Too Many Files";
+"TooManyFilesErrorText" = "This export would require more than 75 files, which you cannot do (arbitrary rule for your protection). You need to up the songs per file limit to export this.";
+
+"WriteErrorTitle" = "Write Error";
+"WriteErrorText" = "The file did not save for some reason. Perhaps you don't have permission?";
+
+"FileExistsErrorTitle" = "File Already Exists";
+"FileExistsErrorText1" = "The file \"";
+"FileExistsErrorText2" = "\" already exists, and is required for this multiple document export. Please resave with a name other than \"";
+
+"DataNotFoundErrorTitle" = "Data Not Found";
+"DataNotFoundErrorText1" = "An acceptable iTunes data folder was not found. Please find the \"iTunes\" folder.";
+"DataNotFoundErrorText2" = "That was not an acceptable folder.";
