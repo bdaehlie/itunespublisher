@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {findMusicFolderPath = id; registerApp = id; }; 
+            CLASS = PrefsPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                isRegisteredField = NSTextField; 
+                mainTabView = NSTabView; 
+                musicPathField = NSTextField; 
+                regCodeField = NSTextField; 
+                regNameField = NSTextField; 
+                registerButton = NSButton; 
+                serverPathField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

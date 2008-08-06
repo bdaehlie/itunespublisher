@@ -1,0 +1,58 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                addField = id; 
+                doNothing = id; 
+                endFieldSelect = id; 
+                export = id; 
+                iTunesOrderingStateChanged = id; 
+                refreshLibrarySelector = id; 
+                removeField = id; 
+                setDTEncodingToDefault = id; 
+                setHTMLColorsToDefault = id; 
+                setUpHTMLLinking = id; 
+                showPrefs = id; 
+                toggleAlbumExport = id; 
+            }; 
+            CLASS = IPController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addFieldButton = NSButton; 
+                dtDefaultEncodingButton = NSButton; 
+                dtDelimiterPopUp = NSPopUpButton; 
+                dtEncodingPopUp = NSPopUpButton; 
+                dtPaddingButton = NSButton; 
+                dtRemoveDupesButton = NSButton; 
+                exportButton = NSButton; 
+                fieldView = NSTableView; 
+                htmlAlbumBasedExportButton = NSButton; 
+                htmlBGColorWell = NSColorWell; 
+                htmlColorDefaultsButton = NSButton; 
+                htmlEvenColorWell = NSColorWell; 
+                htmlFontSizePopUp = NSPopUpButton; 
+                htmlHeaderTextField = NSTextView; 
+                htmlIncludeLinksButton = NSButton; 
+                htmlIncludeRowNumbersButton = NSButton; 
+                htmlMaxAlbumsPerFilePopUp = NSPopUpButton; 
+                htmlMaxSongsPerFilePopUp = NSPopUpButton; 
+                htmlOddColorWell = NSColorWell; 
+                htmlRemoveDupesButton = NSButton; 
+                htmlSetUpLinkingButton = NSButton; 
+                htmlTextColorWell = NSColorWell; 
+                htmlUseStarsButton = NSButton; 
+                iTunesOrderingButton = NSButton; 
+                mainTabView = NSTabView; 
+                optionsView = NSTableView; 
+                playlistPopUp = NSPopUpButton; 
+                removeFieldButton = NSButton; 
+                saveButton = NSButton; 
+                sortView = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ipTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }
+    ); 
+    IBVersion = 1; 
+}
