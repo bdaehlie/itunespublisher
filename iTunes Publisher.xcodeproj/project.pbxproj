@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0324155905BD1D0B0041A837 /* arrow_l.tif in Resources */ = {isa = PBXBuildFile; fileRef = 0324155705BD1D0B0041A837 /* arrow_l.tif */; };
+		0324155A05BD1D0B0041A837 /* arrow_r.tif in Resources */ = {isa = PBXBuildFile; fileRef = 0324155805BD1D0B0041A837 /* arrow_r.tif */; };
+		034D3E7005BE531C00918AC4 /* ipTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 034D3E6E05BE531C00918AC4 /* ipTextView.h */; };
+		034D3E7105BE531C00918AC4 /* ipTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034D3E6F05BE531C00918AC4 /* ipTextView.m */; };
+		03DE614805BCA01F0080D8D8 /* IPController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CBCA7702E7AE3F01061A97 /* IPController.h */; };
+		03DE614905BCA01F0080D8D8 /* Playlist.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EF78B02E79CB401061A97 /* Playlist.h */; };
+		03DE614A05BCA01F0080D8D8 /* Song.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EF78F02E79CBC01061A97 /* Song.h */; };
+		03DE614B05BCA01F0080D8D8 /* XMLAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EF79402E79CE101061A97 /* XMLAccessor.h */; };
+		03DE614C05BCA01F0080D8D8 /* PrefsPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5079956032551CF01C77480 /* PrefsPanel.h */; };
+		03DE614E05BCA01F0080D8D8 /* jaStringMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = F581A5A303A7D97501000102 /* jaStringMethods.h */; };
+		03DE615005BCA01F0080D8D8 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F535CE8302E9B13301FBB7C0 /* icon.icns */; };
+		03DE615105BCA01F0080D8D8 /* English.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F5965A0603AD7F9501000102 /* English.lproj */; };
+		03DE615305BCA01F0080D8D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		03DE615405BCA01F0080D8D8 /* IPController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBCA7602E7AE3F01061A97 /* IPController.m */; };
+		03DE615505BCA01F0080D8D8 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = F53EF78A02E79CB401061A97 /* Playlist.m */; };
+		03DE615605BCA01F0080D8D8 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = F53EF78E02E79CBC01061A97 /* Song.m */; };
+		03DE615705BCA01F0080D8D8 /* XMLAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F53EF79302E79CE101061A97 /* XMLAccessor.m */; };
+		03DE615805BCA01F0080D8D8 /* PrefsPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5079957032551CF01C77480 /* PrefsPanel.m */; };
+		03DE615A05BCA01F0080D8D8 /* jaStringMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F581A5A403A7D97501000102 /* jaStringMethods.m */; };
+		03DE615C05BCA01F0080D8D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		03F172D605BDBBED00458C76 /* DelimitedText.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F172D405BDBBED00458C76 /* DelimitedText.h */; };
+		03F172D705BDBBED00458C76 /* DelimitedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F172D505BDBBED00458C76 /* DelimitedText.m */; };
+		03F1732905BDBC8700458C76 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F1732705BDBC8700458C76 /* Common.h */; };
+		03F1732A05BDBC8700458C76 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F1732805BDBC8700458C76 /* Common.m */; };
+		03F1748B05BDC33200458C76 /* M3U.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F1748905BDC33200458C76 /* M3U.h */; };
+		03F1748C05BDC33200458C76 /* M3U.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F1748A05BDC33200458C76 /* M3U.m */; };
+		03F174A805BDC35000458C76 /* QTSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F174A605BDC35000458C76 /* QTSS.h */; };
+		03F174A905BDC35000458C76 /* QTSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F174A705BDC35000458C76 /* QTSS.m */; };
+		03F174C805BDC36A00458C76 /* HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F174C605BDC36A00458C76 /* HTML.h */; };
+		03F174C905BDC36A00458C76 /* HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F174C705BDC36A00458C76 /* HTML.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0324155705BD1D0B0041A837 /* arrow_l.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = arrow_l.tif; path = images/arrow_l.tif; sourceTree = SOURCE_ROOT; };
+		0324155805BD1D0B0041A837 /* arrow_r.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = arrow_r.tif; path = images/arrow_r.tif; sourceTree = SOURCE_ROOT; };
+		034D3E6E05BE531C00918AC4 /* ipTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipTextView.h; sourceTree = "<group>"; };
+		034D3E6F05BE531C00918AC4 /* ipTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ipTextView.m; sourceTree = "<group>"; };
+		03DE615E05BCA01F0080D8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DE615F05BCA01F0080D8D8 /* iTunes Publisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Publisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F172D405BDBBED00458C76 /* DelimitedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelimitedText.h; sourceTree = "<group>"; };
+		03F172D505BDBBED00458C76 /* DelimitedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelimitedText.m; sourceTree = "<group>"; };
+		03F1732705BDBC8700458C76 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		03F1732805BDBC8700458C76 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		03F1748905BDC33200458C76 /* M3U.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U.h; sourceTree = "<group>"; };
+		03F1748A05BDC33200458C76 /* M3U.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U.m; sourceTree = "<group>"; };
+		03F174A605BDC35000458C76 /* QTSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTSS.h; sourceTree = "<group>"; };
+		03F174A705BDC35000458C76 /* QTSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTSS.m; sourceTree = "<group>"; };
+		03F174C605BDC36A00458C76 /* HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML.h; sourceTree = "<group>"; };
+		03F174C705BDC36A00458C76 /* HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML.m; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F5079956032551CF01C77480 /* PrefsPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PrefsPanel.h; sourceTree = "<group>"; };
+		F5079957032551CF01C77480 /* PrefsPanel.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PrefsPanel.m; sourceTree = "<group>"; };
+		F535CE8302E9B13301FBB7C0 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		F53EF78A02E79CB401061A97 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+		F53EF78B02E79CB401061A97 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		F53EF78E02E79CBC01061A97 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		F53EF78F02E79CBC01061A97 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		F53EF79302E79CE101061A97 /* XMLAccessor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = XMLAccessor.m; sourceTree = "<group>"; };
+		F53EF79402E79CE101061A97 /* XMLAccessor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = XMLAccessor.h; sourceTree = "<group>"; };
+		F581A5A303A7D97501000102 /* jaStringMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = jaStringMethods.h; sourceTree = "<group>"; };
+		F581A5A403A7D97501000102 /* jaStringMethods.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = jaStringMethods.m; sourceTree = "<group>"; };
+		F5965A0603AD7F9501000102 /* English.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = English.lproj; sourceTree = "<group>"; };
+		F5CBCA7602E7AE3F01061A97 /* IPController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = IPController.m; sourceTree = "<group>"; };
+		F5CBCA7702E7AE3F01061A97 /* IPController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IPController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DE615B05BCA01F0080D8D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DE615C05BCA01F0080D8D8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E3DA2905BD2D0A002B40F4 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				03F1732705BDBC8700458C76 /* Common.h */,
+				03F1732805BDBC8700458C76 /* Common.m */,
+				F53EF78B02E79CB401061A97 /* Playlist.h */,
+				F53EF78A02E79CB401061A97 /* Playlist.m */,
+				F53EF78F02E79CBC01061A97 /* Song.h */,
+				F53EF78E02E79CBC01061A97 /* Song.m */,
+				F53EF79402E79CE101061A97 /* XMLAccessor.h */,
+				F53EF79302E79CE101061A97 /* XMLAccessor.m */,
+				F581A5A303A7D97501000102 /* jaStringMethods.h */,
+				F581A5A403A7D97501000102 /* jaStringMethods.m */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		03E3DA2E05BD2D17002B40F4 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F5079956032551CF01C77480 /* PrefsPanel.h */,
+				F5079957032551CF01C77480 /* PrefsPanel.m */,
+				034D3E6E05BE531C00918AC4 /* ipTextView.h */,
+				034D3E6F05BE531C00918AC4 /* ipTextView.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		03F172CE05BDBBD200458C76 /* Export Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03F174C605BDC36A00458C76 /* HTML.h */,
+				03F174C705BDC36A00458C76 /* HTML.m */,
+				03F172D405BDBBED00458C76 /* DelimitedText.h */,
+				03F172D505BDBBED00458C76 /* DelimitedText.m */,
+				03F1748905BDC33200458C76 /* M3U.h */,
+				03F1748A05BDC33200458C76 /* M3U.m */,
+				03F174A605BDC35000458C76 /* QTSS.h */,
+				03F174A705BDC35000458C76 /* QTSS.m */,
+			);
+			name = "Export Classes";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBCA7702E7AE3F01061A97 /* IPController.h */,
+				F5CBCA7602E7AE3F01061A97 /* IPController.m */,
+				03F172CE05BDBBD200458C76 /* Export Classes */,
+				03E3DA2905BD2D0A002B40F4 /* Backend */,
+				03E3DA2E05BD2D17002B40F4 /* User Interface */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DE615F05BCA01F0080D8D8 /* iTunes Publisher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iTunes Publisher */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "iTunes Publisher";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0324155705BD1D0B0041A837 /* arrow_l.tif */,
+				0324155805BD1D0B0041A837 /* arrow_r.tif */,
+				F535CE8302E9B13301FBB7C0 /* icon.icns */,
+				03DE615E05BCA01F0080D8D8 /* Info.plist */,
+				F5965A0603AD7F9501000102 /* English.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03DE614705BCA01F0080D8D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DE614805BCA01F0080D8D8 /* IPController.h in Headers */,
+				03DE614905BCA01F0080D8D8 /* Playlist.h in Headers */,
+				03DE614A05BCA01F0080D8D8 /* Song.h in Headers */,
+				03DE614B05BCA01F0080D8D8 /* XMLAccessor.h in Headers */,
+				03DE614C05BCA01F0080D8D8 /* PrefsPanel.h in Headers */,
+				03DE614E05BCA01F0080D8D8 /* jaStringMethods.h in Headers */,
+				03F172D605BDBBED00458C76 /* DelimitedText.h in Headers */,
+				03F1732905BDBC8700458C76 /* Common.h in Headers */,
+				03F1748B05BDC33200458C76 /* M3U.h in Headers */,
+				03F174A805BDC35000458C76 /* QTSS.h in Headers */,
+				03F174C805BDC36A00458C76 /* HTML.h in Headers */,
+				034D3E7005BE531C00918AC4 /* ipTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03DE614605BCA01F0080D8D8 /* iTunes Publisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038B7A4B0E4A2B8300F40218 /* Build configuration list for PBXNativeTarget "iTunes Publisher" */;
+			buildPhases = (
+				03DE614705BCA01F0080D8D8 /* Headers */,
+				03DE614F05BCA01F0080D8D8 /* Resources */,
+				03DE615205BCA01F0080D8D8 /* Sources */,
+				03DE615B05BCA01F0080D8D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iTunes Publisher";
+			productName = "iTunes Publisher";
+			productReference = 03DE615F05BCA01F0080D8D8 /* iTunes Publisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 038B7A4A0E4A2B8300F40218 /* Build configuration list for PBXProject "iTunes Publisher" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iTunes Publisher */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DE614605BCA01F0080D8D8 /* iTunes Publisher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DE614F05BCA01F0080D8D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DE615005BCA01F0080D8D8 /* icon.icns in Resources */,
+				03DE615105BCA01F0080D8D8 /* English.lproj in Resources */,
+				0324155905BD1D0B0041A837 /* arrow_l.tif in Resources */,
+				0324155A05BD1D0B0041A837 /* arrow_r.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DE615205BCA01F0080D8D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DE615305BCA01F0080D8D8 /* main.m in Sources */,
+				03DE615405BCA01F0080D8D8 /* IPController.m in Sources */,
+				03DE615505BCA01F0080D8D8 /* Playlist.m in Sources */,
+				03DE615605BCA01F0080D8D8 /* Song.m in Sources */,
+				03DE615705BCA01F0080D8D8 /* XMLAccessor.m in Sources */,
+				03DE615805BCA01F0080D8D8 /* PrefsPanel.m in Sources */,
+				03DE615A05BCA01F0080D8D8 /* jaStringMethods.m in Sources */,
+				03F172D705BDBBED00458C76 /* DelimitedText.m in Sources */,
+				03F1732A05BDBC8700458C76 /* Common.m in Sources */,
+				03F1748C05BDC33200458C76 /* M3U.m in Sources */,
+				03F174A905BDC35000458C76 /* QTSS.m in Sources */,
+				03F174C905BDC36A00458C76 /* HTML.m in Sources */,
+				034D3E7105BE531C00918AC4 /* ipTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		038B7A370E4A2B8300F40218 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		038B7A380E4A2B8300F40218 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		038B7A390E4A2B8300F40218 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		038B7A3A0E4A2B8300F40218 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "iTunes Publisher";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		038B7A3B0E4A2B8300F40218 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "iTunes Publisher";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		038B7A3C0E4A2B8300F40218 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				JAVA_COMPILER_DEBUGGING_SYMBOLS = NO;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "iTunes Publisher";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038B7A4A0E4A2B8300F40218 /* Build configuration list for PBXProject "iTunes Publisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038B7A370E4A2B8300F40218 /* Development */,
+				038B7A380E4A2B8300F40218 /* Deployment */,
+				038B7A390E4A2B8300F40218 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		038B7A4B0E4A2B8300F40218 /* Build configuration list for PBXNativeTarget "iTunes Publisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038B7A3A0E4A2B8300F40218 /* Development */,
+				038B7A3B0E4A2B8300F40218 /* Deployment */,
+				038B7A3C0E4A2B8300F40218 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
